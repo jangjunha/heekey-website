@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <title>Heekey 히키 — 가벼운 iOS 키보드</title>
+  </head>
+  <body>
+    <div class="prose mx-auto my-24">
+      <h1>Heekey</h1>
+      <section>
+        <p>
+          Heekey는 유용하면서도 가벼움을 추구하는 iOS 키보드 애플리케이션입니다.
+        </p>
+        <p>현재 한글 나랏글 배열, 영문 QWERTY 배열을 지원합니다.</p>
+        <div class="flex *:flex-1 *:*:m-0 *:*:rounded *:shadow-2xl gap-4">
+          <div>
+            <img
+              src="./screenshots/naratgeul.png"
+              alt="Heekey 나랏글 레이아웃 키보드 스크린샷"
+            />
+          </div>
+          <div>
+            <img
+              src="./screenshots/qwerty.png"
+              alt="Heekey QWERTY 레이아웃 키보드 스크린샷"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-24">
+        <h2>개인정보 보호</h2>
+        <p>App Store에서 제공되는 Heekey는 개인정보를 수집하지 않습니다.</p>
+        <p>
+          TestFlight에서 제공되는 Heekey의 공개 베타 버전은 사용자의 이름 및
+          이메일 주소를 포함한 충돌 로그 및 사용 정보를 수집합니다. 보다 자세한
+          정보는
+          <a
+            href="https://www.apple.com/legal/privacy/data/ko/test-flight/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >TestFlight 안내 페이지</a
+          >를 참고해주세요.
+        </p>
+      </section>
+
+      <section class="mt-24">
+        <h2>오픈 소스 라이센스 정보</h2>
+        <p>Heekey는 다음 오픈 소스 소프트웨어를 사용합니다.</p>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/devxoul/Then"
+              target="_blank"
+              rel="noopener"
+              >devxoul/Then</a
+            >
+            — MIT License
+          </li>
+        </ul>
+
+        <p>
+          Heekey의 입력기 부분의 코드는
+          <a href="https://github.com/jangjunha/heekey-core"
+            >jangjunha/heekey-core</a
+          >에 MIT license로 공개되어 있습니다.
+        </p>
+      </section>
+
+      <footer class="mt-24">
+        <p>©️<a href="https://jangjunha.me/">jangjunha</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
